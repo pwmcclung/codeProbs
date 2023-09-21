@@ -1,6 +1,5 @@
 function riders(stations) {
     let riders = 0;
-    let stationCount = 0;
     let milesSum = 0;
     for (let i = 0; i <  stations.length; i++){
       milesSum += stations[i];
@@ -12,3 +11,7 @@ function riders(stations) {
     }
     return riders + 1;
   }
+
+
+
+  
