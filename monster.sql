@@ -9,3 +9,9 @@ FROM top_half AS t
 FULL JOIN bottom_half AS b
 ON t.id = b.id
 ORDER BY species;
+
+
+SELECT j.job_title AS job_title(unique), SUM(j.salary) / SUM(j.people) AS average_salary(float, 2dp), Sum(j.people_id) as total_people(int), SUM(j.salary) AS total_salary(float, 2dp)
+FROM people AS p 
+LEFT JOIN job as j 
+ON people.id = job.people_id;

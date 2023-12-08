@@ -2,7 +2,7 @@
 function abbreviate(string) {
     let wordArr = string.split(/([-,\s])/g);  
     for (let i = 0; i < wordArr.length; i++) {
-      if (wordArr[i].length <= 3) {
+        if (wordArr[i].length <= 3) {
         wordArr[i] = wordArr[i];
       }
       else {
@@ -10,5 +10,6 @@ function abbreviate(string) {
       }
     }
     return wordArr.join('');
-  }
-  
+}
+     
+

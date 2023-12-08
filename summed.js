@@ -18,6 +18,5 @@ function fibo(n){
    }
  
   let summed =  numArr.reduce((a,b) => a + b,0);
-
   return summed;
 }
