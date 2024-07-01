@@ -12,13 +12,13 @@ def vowel_shift(text,n):
         count = 0
         while count < n and len(vowels_arr) > 0:
             first = vowels_arr.pop()
-            vowels_arr.insert(0,first);
+            vowels_arr.insert(0,first)
             count += 1
     if n < 0:
-        count = n;
+        count = n
         while  count < 0 and len(vowels_arr) > 0:
             first = vowels_arr.pop(0)
-            vowels_arr.append(first);
+            vowels_arr.append(first)
             count += 1
     for x in range(0, len(arr)):
         if arr[x] == '*' and len(vowels_arr) > 0:
