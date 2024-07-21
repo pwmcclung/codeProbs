@@ -11,7 +11,6 @@ var singleNonDuplicate = function(nums) {
         }else{
             r = mid;
         }
- 
     }
     return nums[l];
  };
