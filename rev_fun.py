@@ -3,7 +3,7 @@ def reverse_fun(n):
     new_str = ''
     lst = list(n)
     while length > 0:
-        lst.reverse();
+        lst.reverse()
         first = lst.pop(0)
         new_str += str(first)
         length -= 1
