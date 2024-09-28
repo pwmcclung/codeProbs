@@ -1,3 +1,6 @@
+
+from collections import Counter
+
 def numIdenticalPairs(self, nums: List[int]) -> int:
     count_of_good_pairs = 0
     times = Counter()
